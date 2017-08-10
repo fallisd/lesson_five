@@ -1,0 +1,25 @@
+example_eleven.py will be very helpful!
+
+Create a script called edit_metadata.py
+
+In the script:
+
+    Read in the csv file victorian_serial_novels_unedited.csv
+
+    In the genre column 
+    - change all occurences of "book" to the AAT value "books"
+
+    In the resource_type column
+    - capitalize the first letter in "text" so it becomes "Text"
+
+    In the related url column
+    - change the format of the url from
+      http://voyager.library.uvic.ca/cgi-bin/Pwebrecon.cgi?BBID=394452
+      to 
+      http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=394452
+
+      using the id from incorrect url
+
+
+    Output the modified file to victorian_serial_novels_unedited.csv
+
